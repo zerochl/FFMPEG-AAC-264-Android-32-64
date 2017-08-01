@@ -9,7 +9,7 @@ ffmpeg-3.2.5源码，编译完aac与x264之后将结果copy到mylib文件夹下�
 # SmallVideoRecord
 SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg做了封装，实现了ffmepg拍摄与视频压缩。
 # 使用详解
-在manifests里面添加
+# 在manifests里面添加
 
         <activity
             android:name="com.mabeijianxi.smallvideo2.VideoPlayerActivity"
@@ -23,7 +23,7 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
         <activity
             android:name="com.mabeijianxi.smallvideo2.SendSmallVideoActivity"
             android:theme="@style/AppNoBarTheme" />
-在Application里面初始化小视频录制
+# 在Application里面初始化小视频录制
         public static void initSmallVideo(Context context) {
              // 设置拍摄视频缓存路径
              File dcim = Environment
@@ -44,7 +44,7 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
         // 初始化拍摄SDK，必须
              VCamera.initialize(context);
          }
-跳转录制界面或选择压缩
+# 跳转录制界面或选择压缩
           // 录制
         MediaRecorderConfig config = new MediaRecorderConfig.Buidler()
                      .doH264Compress(new AutoVBRMode()
@@ -70,7 +70,7 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
                                      .setFramerate(15)
                                      .build();
                              OnlyCompressOverBean onlyCompressOverBean = new LocalMediaCompress(config).startCompress();
-一些参数说明
+# 一些参数说明
         maxFrameRate：指定最大帧率，越大视频质量越好，体积也会越大，当在cbr模式下不再是动态帧率，而是固定帧率；
 
          captureThumbnailsTime：指定剪切哪个时间的画面来作为封面图；
