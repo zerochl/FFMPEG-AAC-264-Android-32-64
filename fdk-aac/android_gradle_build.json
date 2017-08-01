@@ -1,0 +1,738 @@
+
+{
+	"buildFiles" : [ "I:/document/resourceCode/fdk-aac/android/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:/android-sdks/android-sdks/cmake/3.6.4111459/bin/cmake.exe --build I:/document/resourceCode/fdk-aac --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"fdk-aac" : 
+		{
+			"artifactName" : "fdk-aac",
+			"buildCommand" : "D:/android-sdks/android-sdks/cmake/3.6.4111459/bin/cmake.exe --build I:/document/resourceCode/fdk-aac --target fdk-aac",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aac_ram.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aac_rom.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aacdec_drc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aacdec_hcr.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aacdec_hcr_bit.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aacdec_hcrs.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aacdec_pns.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aacdec_tns.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aacdecoder.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/aacdecoder_lib.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/block.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/channel.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/channelinfo.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/conceal.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/ldfiltbank.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/pulsedata.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/rvlc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/rvlcbit.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/rvlcconceal.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACdec/src/stereo.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/aacEnc_ram.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/aacEnc_rom.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/aacenc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/aacenc_lib.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/aacenc_pns.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/aacenc_tns.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/adj_thr.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/band_nrg.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/bandwidth.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/bit_cnt.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/bitenc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/block_switch.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/channel_map.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/chaosmeasure.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/dyn_bits.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/grp_data.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/intensity.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/line_pe.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/metadata_compressor.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/metadata_main.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/ms_stereo.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/noisedet.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/pnsparam.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/pre_echo_control.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/psy_configuration.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/psy_main.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/qc_main.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/quantize.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/sf_estim.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/spreading.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/tonality.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libAACenc/src/transform.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/FDK_bitbuffer.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/FDK_core.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/FDK_crc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/FDK_hybrid.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/FDK_tools_rom.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/FDK_trigFcts.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/autocorr2nd.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/dct.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/fft.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/fft_rad2.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/fixpoint_math.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/mdct.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/qmf.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libFDK/src/scale.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPDec/src/tpdec_adif.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPDec/src/tpdec_adts.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPDec/src/tpdec_asc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPDec/src/tpdec_drm.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPDec/src/tpdec_latm.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPDec/src/tpdec_lib.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPEnc/src/tpenc_adif.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPEnc/src/tpenc_adts.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPEnc/src/tpenc_asc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPEnc/src/tpenc_latm.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libMpegTPEnc/src/tpenc_lib.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libPCMutils/src/limiter.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libPCMutils/src/pcmutils_lib.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/env_calc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/env_dec.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/env_extr.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/huff_dec.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/lpp_tran.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/psbitdec.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/psdec.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/psdec_hybrid.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/sbr_crc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/sbr_deb.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/sbr_dec.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/sbr_ram.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/sbr_rom.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/sbrdec_drc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/sbrdec_freq_sca.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRdec/src/sbrdecoder.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/bit_sbr.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/code_env.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/env_bit.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/env_est.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/fram_gen.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/invf_est.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/mh_det.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/nf_est.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/ps_bitenc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/ps_encode.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/ps_main.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/resampler.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/sbr_encoder.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/sbr_misc.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/sbr_ram.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/sbr_rom.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/sbrenc_freq_sca.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/ton_corr.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSBRenc/src/tran_det.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSYS/src/cmdl_parser.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSYS/src/conv_string.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSYS/src/genericStds.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				},
+				
+				{
+					"flags" : "  --sysroot=/platforms/android-8/arch-arm  -DANDROID -D_NDK_MATH_NO_SOFTFP=1 -II:\\document\\resourceCode\\fdk-aac\\libAACdec\\include -II:\\document\\resourceCode\\fdk-aac\\libAACenc\\include -II:\\document\\resourceCode\\fdk-aac\\libFDK\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPDec\\include -II:\\document\\resourceCode\\fdk-aac\\libMpegTPEnc\\include -II:\\document\\resourceCode\\fdk-aac\\libPCMutils\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRdec\\include -II:\\document\\resourceCode\\fdk-aac\\libSBRenc\\include -II:\\document\\resourceCode\\fdk-aac\\libSYS\\include    --sysroot=/platforms/android-8/arch-arm -fPIC -march=armv7-a -mfpu=vfpv3-d16 -mhard-float -lm_hard -fno-rtti -fno-exceptions  -c ",
+					"src" : "I:/document/resourceCode/fdk-aac/libSYS/src/wav_file.cpp",
+					"workingDirectory" : "I:/document/resourceCode/fdk-aac"
+				}
+			],
+			"output" : "I:/document/resourceCode/fdk-aac/libfdk-aac.a",
+			"toolchain" : "891515287"
+		}
+	},
+	"toolchains" : 
+	{
+		"891515287" : 
+		{
+			"cCompilerExecutable" : "C:/TDM-GCC-64/bin/gcc.exe",
+			"cppCompilerExecutable" : "C:/TDM-GCC-64/bin/g++.exe"
+		}
+	}
+}

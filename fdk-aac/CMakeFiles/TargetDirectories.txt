@@ -1,0 +1,6 @@
+I:/document/resourceCode/fdk-aac/CMakeFiles/fdk-aac.dir
+I:/document/resourceCode/fdk-aac/CMakeFiles/edit_cache.dir
+I:/document/resourceCode/fdk-aac/CMakeFiles/install.dir
+I:/document/resourceCode/fdk-aac/CMakeFiles/install/local.dir
+I:/document/resourceCode/fdk-aac/CMakeFiles/rebuild_cache.dir
+I:/document/resourceCode/fdk-aac/CMakeFiles/list_install_components.dir

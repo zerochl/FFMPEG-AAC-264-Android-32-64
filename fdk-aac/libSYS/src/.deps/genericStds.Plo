@@ -1,0 +1,120 @@
+libSYS/src/genericStds.lo: libSYS/src/genericStds.cpp \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/math.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/android/api-level.h \
+ i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include-fixed\limits.h \
+ i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include-fixed\syslimits.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/limits.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/limits.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/limits.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/syslimits.h \
+ libSYS/include/genericStds.h libSYS/include/machine_type.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/assert.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/stdlib.h \
+ i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include\stddef.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/string.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/malloc.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/xlocale.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/alloca.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/strings.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/types.h \
+ i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include\stdint.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/stdint.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/machine/wchar_limits.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/types.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm/types.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm-generic/types.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm-generic/int-ll64.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm/bitsperlong.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm-generic/bitsperlong.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/posix_types.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/stddef.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/compiler.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm/posix_types.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm/posix_types_64.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm-generic/posix_types.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/sysmacros.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/memory.h \
+ I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/stdio.h \
+ i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include\stdarg.h
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/math.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/cdefs.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/cdefs_elf.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/android/api-level.h:
+
+i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include-fixed\limits.h:
+
+i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include-fixed\syslimits.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/limits.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/limits.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/limits.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/syslimits.h:
+
+libSYS/include/genericStds.h:
+
+libSYS/include/machine_type.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/assert.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/stdlib.h:
+
+i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include\stddef.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/string.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/malloc.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/xlocale.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/alloca.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/strings.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/types.h:
+
+i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include\stdint.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/stdint.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/machine/wchar_limits.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/types.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm/types.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm-generic/types.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm-generic/int-ll64.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm/bitsperlong.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm-generic/bitsperlong.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/posix_types.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/stddef.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/linux/compiler.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm/posix_types.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm/posix_types_64.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/asm-generic/posix_types.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/sys/sysmacros.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/memory.h:
+
+I:/soft/android-ndk-r14b/platforms/android-21/arch-x86_64/usr/include/stdio.h:
+
+i:\soft\android-ndk-r14b\toolchains\x86_64-4.9\prebuilt\windows-x86_64\lib\gcc\x86_64-linux-android\4.9.x\include\stdarg.h:
