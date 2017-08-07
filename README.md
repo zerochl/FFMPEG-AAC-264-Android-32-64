@@ -85,3 +85,5 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 
          VBRMode:可以传入一个固定码率，也可以添加一个转码速度。
 
+作者联系方式：QQ：975804495
+疯狂的程序员群：186305789，没准你能遇到绝影大神
