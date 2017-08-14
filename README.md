@@ -91,3 +91,15 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 # 关于项目文件很大的问题
 首先项目看着很大，其实编译之后差不多11M左右，建议lib导出成aar然后导入到自己项目，
 其次可根据自己需求重新执行sh文件，configure提供disable与enable各种功能的方法，disable之后就不会打包到so库中，从而减小so大小
+
+# 交叉编译的时候遇到一些坑，分享出来，希望对其他人有所帮助。
+
+（1） 编译ffmpeg时提示找不到libfdk-aac扩这libx264。这个问题是由于ffmpeg的交叉编译器找不到libfdk-aac/x264的头文件或者是静态库导致的，解决这个问题只要将ffmpeg、libfdk-aac、libx264的–prefix选项指向相同的目录，并且在调用ffmpeg的configure脚本时指定–extra-cflags=“-I${PREFIX}/include”和–extra-ldflags=“-L${PREFIX}/lib -lx264 -lfdk-aac”即可，另外请主要configure的libfdk-aac支持选项有时候是libfdk-aac（小短线），有时候又是libfdk_aac（下划线）。如果还没解决问题，就查configure生成的日志文件config.log；
+
+（2） 编译了32位so文件后再编译64位so文件时，提示strtod.o的文件格式不对。这是由于对于3.2版本的ffmpeg，make clean不会删除compat下的strtod.o，strtod.d, msvcrt/snprintf.o, msvcrt/snprintf.d四个文件，只要手动删除后重新编译即可。具体可以参考简书上esonyf的这篇文章：http://www.jianshu.com/p/612ef67e42bd
+
+（3） 找不到AAC或者H264编解码器（调用avodec_find_decoder|encoder(AVCODEC_ID_AAC|AVCODEC_ID_H264)返回失败）。造成这个问题的原因是为了减小生成库的大小，我在congiure时启用了–disable-encoders和–disable-decoders选项，这种情况下除了要使用–enable-libx264和–enable-libfdk-aac，还应该使用–enable-encoder=libx264|libfdk_aac选项显示启用libfdk-aac和libx264作为编解码器。
+
+（4） configure时候提示找不到可工作的C Compiler。configure脚本的这个提示具有一定误导性，让我以为是交叉编译器gcc的路径配错了，通过分析config.log才发现extra-cflags、extra-ldflags里面有当前CPU架构不支持的选项时都会导致交叉编译器测试失败，然后返回这个错误。解决这个问题主要是通过分析config.log脚本来解决。由于x264的configure脚本不把这个错误信息放在config.log里面，只能通过在其configure脚本开头添加set
+-x选项来启动调试。
+
