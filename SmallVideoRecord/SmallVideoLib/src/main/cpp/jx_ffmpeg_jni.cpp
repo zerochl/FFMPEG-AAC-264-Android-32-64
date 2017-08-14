@@ -1,7 +1,7 @@
 /**
- * Created by jianxi on 2017/5/12.
- * https://github.com/mabeijianxi
- * mabeijianxi@gmail.com
+ * Created by zero on 2017/5/18.
+ * https://github.com/zerochl/FFMPEG-AAC-264-Android-32-64
+ * zerochl0912@gmail.com
  */
 #include <jni.h>
 #include <string>
@@ -26,7 +26,7 @@ JXPCMEncodeAAC *aac_encoder;
  */
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_prepareJXFFmpegEncoder(JNIEnv *env,
+Java_com_zero_smallvideorecord_jniinterface_FFmpegBridge_prepareJXFFmpegEncoder(JNIEnv *env,
                                                                                         jclass type,
                                                                                         jstring media_base_path_,
                                                                                         jstring media_name_,
@@ -103,7 +103,7 @@ Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_prepareJXFFmpeg
  */
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_encodeFrame2H264(JNIEnv *env,
+Java_com_zero_smallvideorecord_jniinterface_FFmpegBridge_encodeFrame2H264(JNIEnv *env,
                                                                                   jclass type,
                                                                                   jbyteArray data_) {
 
@@ -118,7 +118,7 @@ Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_encodeFrame2H26
  */
 extern "C"
 JNIEXPORT jstring JNICALL
-Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_getFFmpegConfig(JNIEnv *env,
+Java_com_zero_smallvideorecord_jniinterface_FFmpegBridge_getFFmpegConfig(JNIEnv *env,
                                                                                  jclass type) {
 
     return getEncoderConfigInfo(env);
@@ -129,7 +129,7 @@ Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_getFFmpegConfig
  */
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_encodeFrame2AAC(JNIEnv *env,
+Java_com_zero_smallvideorecord_jniinterface_FFmpegBridge_encodeFrame2AAC(JNIEnv *env,
                                                                                  jclass type,
                                                                                  jbyteArray data_) {
     return aac_encoder->sendOneFrame((uint8_t *) env->GetByteArrayElements(data_, 0));
@@ -141,7 +141,7 @@ Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_encodeFrame2AAC
  */
 extern "C"
 JNIEXPORT jint JNICALL
-Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_recordEnd(JNIEnv *env,
+Java_com_zero_smallvideorecord_jniinterface_FFmpegBridge_recordEnd(JNIEnv *env,
                                                                            jclass type) {
     h264_encoder->user_end();
     aac_encoder->user_end();
@@ -149,7 +149,7 @@ Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_recordEnd(JNIEn
 }
 
 JNIEXPORT void JNICALL
-Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_nativeRelease(JNIEnv *env,
+Java_com_zero_smallvideorecord_jniinterface_FFmpegBridge_nativeRelease(JNIEnv *env,
                                                                                jclass type) {
 
     // TODO

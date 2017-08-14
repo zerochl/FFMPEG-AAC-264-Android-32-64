@@ -59,7 +59,7 @@
         </LinearLayout>
     </RelativeLayout>
 
-    <com.mabeijianxi.smallvideorecord2.ProgressView
+    <com.zero.smallvideorecord.ProgressView
         android:id="@+id/record_progress"
         android:layout_width="match_parent"
         android:layout_height="5dp"

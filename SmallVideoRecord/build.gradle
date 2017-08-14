@@ -5,7 +5,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.2'
+        classpath 'com.android.tools.build:gradle:2.3.3'
         classpath 'com.novoda:bintray-release:0.3.4'
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -23,4 +23,4 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-tasks.getByPath(":SmallVideoLib2:mavenAndroidJavadocs").enabled = false
+tasks.getByPath(":SmallVideoLib:mavenAndroidJavadocs").enabled = false

@@ -8,7 +8,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 25
         versionCode 7
-        versionName "2.0.0-beta3"
+        versionName "2.0.0"
         externalNativeBuild {
             cmake {
                 cppFlags "-std=c++11"
@@ -41,13 +41,14 @@ android {
         }
     }
     publish {
-
         userOrg = 'mabeijianxi'//bintray.com用户名
         groupId = 'com.mabeijianxi'//jcenter上的路径
-        artifactId = 'small-video-record2'//项目名称
+//        userOrg = 'zero'//bintray.com用户名
+//        groupId = 'com.zero'//jcenter上的路径
+        artifactId = 'small-video'//项目名称
         publishVersion = '2.0.0-beta3'//版本号
         desc = '利用FFmpeg来小视频录制与压缩处理!'//描述，不重要
-        website = 'https://github.com/mabeijianxi/small-video-record'//网站，不重要
+        website = 'https://github.com/zerochl/FFMPEG-AAC-264-Android-32-64'//网站，不重要
     }
 }
 

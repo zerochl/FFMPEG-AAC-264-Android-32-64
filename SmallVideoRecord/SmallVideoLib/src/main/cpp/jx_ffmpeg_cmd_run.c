@@ -1,7 +1,7 @@
 /**
- * Created by jianxi on 2017/6/4..
- * https://github.com/mabeijianxi
- * mabeijianxi@gmail.com
+ * Created by zero on 2017/5/18.
+ * https://github.com/zerochl/FFMPEG-AAC-264-Android-32-64
+ * zerochl0912@gmail.com
  */
 #include "jx_ffmpeg_cmd_run.h"
 #include "ffmpeg.h"
@@ -11,7 +11,7 @@
  * 以命令行方式运行，返回0表示成功
  */
 JNIEXPORT jint JNICALL
-Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_jxCMDRun(JNIEnv *env, jclass type,
+Java_com_zero_smallvideorecord_jniinterface_FFmpegBridge_jxCMDRun(JNIEnv *env, jclass type,
         jobjectArray commands){
     LOGI(JNI_DEBUG, "jxCMDRun 命令开始");
     int argc = (*env)->GetArrayLength(env,commands);
@@ -36,7 +36,7 @@ char *logUrl;
  * 初始化debug工具
  */
 JNIEXPORT void JNICALL
-Java_com_mabeijianxi_smallvideorecord2_jniinterface_FFmpegBridge_initJXFFmpeg(JNIEnv *env, jclass type,
+Java_com_zero_smallvideorecord_jniinterface_FFmpegBridge_initJXFFmpeg(JNIEnv *env, jclass type,
                                                                            jboolean debug,
                                                                            jstring logUrl_) {
     JNI_DEBUG = debug;

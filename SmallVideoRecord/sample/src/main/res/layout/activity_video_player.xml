@@ -16,7 +16,7 @@
         android:visibility="gone"
         android:text="发布"  />
     
-    <com.mabeijianxi.smallvideorecord2.SurfaceVideoView
+    <com.zero.smallvideorecord.SurfaceVideoView
         android:id="@+id/videoview"
         android:layout_width="match_parent"
         android:layout_height="200dp"
