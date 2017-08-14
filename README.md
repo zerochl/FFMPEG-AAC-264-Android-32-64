@@ -87,3 +87,7 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 
 作者联系方式：QQ：975804495
 疯狂的程序员群：186305789，没准你能遇到绝影大神
+
+# 关于项目文件很大的问题
+首先项目看着很大，其实编译之后差不多11M左右，建议lib导出成AAC然后导入到自己项目，
+其次可根据自己需求重新执行sh文件，configure提供disable与enable各种功能的方法，disable之后就不会打包到so库中，从而减小so大小
