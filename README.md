@@ -12,16 +12,16 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 # 在manifests里面添加
 
         <activity
-            android:name="com.mabeijianxi.smallvideo2.VideoPlayerActivity"
+            android:name="com.zero.smallvideo.VideoPlayerActivity"
             android:theme="@style/AppNoBarTheme"
 
             />
         <activity
-            android:name="com.mabeijianxi.smallvideorecord2.MediaRecorderActivity"
+            android:name="com.zero.smallvideo.MediaRecorderActivity"
             android:theme="@style/AppNoBarTheme"
             />
         <activity
-            android:name="com.mabeijianxi.smallvideo2.SendSmallVideoActivity"
+            android:name="com.zero.smallvideo.SendSmallVideoActivity"
             android:theme="@style/AppNoBarTheme" />
 # 在Application里面初始化小视频录制
         public static void initSmallVideo(Context context) {
@@ -34,10 +34,10 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
                  } else {
                      VCamera.setVideoCachePath(dcim.getPath().replace("/sdcard/",
                              "/sdcard-ext/")
-                             + "/mabeijianxi/");
+                             + "/zero/");
                  }
              } else {
-                 VCamera.setVideoCachePath(dcim + "/mabeijianxi/");
+                 VCamera.setVideoCachePath(dcim + "/zero/");
              }
         // 开启log输出,ffmpeg输出到logcat
              VCamera.setDebugMode(true);
