@@ -8,6 +8,8 @@ x264源码，编译方式已经整理为sh文件
 ffmpeg-3.2.5源码，编译完aac与x264之后将结果copy到mylib文件夹下，然后执行ffmpeg的sh文件进行编译
 # SmallVideoRecord
 SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg做了封装，实现了ffmepg拍摄与视频压缩。
+# 作者联系方式：QQ：975804495
+# 疯狂的程序员群：186305789，没准你能遇到绝影大神
 # 使用详解
 # 在manifests里面添加
 
@@ -100,7 +102,4 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 （4） configure时候提示找不到可工作的C Compiler。configure脚本的这个提示具有一定误导性，让我以为是交叉编译器gcc的路径配错了，通过分析config.log才发现extra-cflags、extra-ldflags里面有当前CPU架构不支持的选项时都会导致交叉编译器测试失败，然后返回这个错误。解决这个问题主要是通过分析config.log脚本来解决。由于x264的configure脚本不把这个错误信息放在config.log里面，只能通过在其configure脚本开头添加set
 -x选项来启动调试。
 
-
-# 作者联系方式：QQ：975804495
-# 疯狂的程序员群：186305789，没准你能遇到绝影大神
 
