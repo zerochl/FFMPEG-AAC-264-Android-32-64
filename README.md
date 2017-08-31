@@ -85,9 +85,6 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 
          VBRMode:可以传入一个固定码率，也可以添加一个转码速度。
 
-作者联系方式：QQ：975804495
-疯狂的程序员群：186305789，没准你能遇到绝影大神
-
 # 关于项目文件很大的问题
 首先项目看着很大，其实编译之后差不多11M左右，建议lib导出成aar然后导入到自己项目，
 其次可根据自己需求重新执行sh文件，configure提供disable与enable各种功能的方法，disable之后就不会打包到so库中，从而减小so大小
@@ -102,4 +99,8 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 
 （4） configure时候提示找不到可工作的C Compiler。configure脚本的这个提示具有一定误导性，让我以为是交叉编译器gcc的路径配错了，通过分析config.log才发现extra-cflags、extra-ldflags里面有当前CPU架构不支持的选项时都会导致交叉编译器测试失败，然后返回这个错误。解决这个问题主要是通过分析config.log脚本来解决。由于x264的configure脚本不把这个错误信息放在config.log里面，只能通过在其configure脚本开头添加set
 -x选项来启动调试。
+
+
+作者联系方式：QQ：975804495
+疯狂的程序员群：186305789，没准你能遇到绝影大神
 
