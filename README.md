@@ -14,16 +14,16 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 # 在manifests里面添加
 
         <activity
-            android:name="com.zero.smallvideorecord.VideoPlayerActivity"
+            android:name="com.zero.smallvideorecord2.VideoPlayerActivity"
             android:theme="@style/AppNoBarTheme"
 
             />
         <activity
-            android:name="com.zero.smallvideorecord.MediaRecorderActivity"
+            android:name="com.zero.smallvideorecord2.MediaRecorderActivity"
             android:theme="@style/AppNoBarTheme"
             />
         <activity
-            android:name="com.zero.smallvideorecord.SendSmallVideoActivity"
+            android:name="com.zero.smallvideorecord2.SendSmallVideoActivity"
             android:theme="@style/AppNoBarTheme" />
 # 在Application里面初始化小视频录制
         public static void initSmallVideo(Context context) {
@@ -44,7 +44,7 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
         // 开启log输出,ffmpeg输出到logcat
              //JianXiCamera.setDebugMode(true);
         // 初始化拍摄SDK，必须
-             JianXiCamera.initialize(context,null);
+             JianXiCamera.initialize(false,null);
          }
 # 跳转录制界面或选择压缩
           // 录制
