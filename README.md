@@ -14,16 +14,16 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 # 在manifests里面添加
 
         <activity
-            android:name="com.zero.smallvideorecord2.VideoPlayerActivity"
+            android:name="com.zero.smallvideorecord.VideoPlayerActivity"
             android:theme="@style/AppNoBarTheme"
 
             />
         <activity
-            android:name="com.zero.smallvideorecord2.MediaRecorderActivity"
+            android:name="com.zero.smallvideorecord.MediaRecorderActivity"
             android:theme="@style/AppNoBarTheme"
             />
         <activity
-            android:name="com.zero.smallvideorecord2.SendSmallVideoActivity"
+            android:name="com.zero.smallvideorecord.SendSmallVideoActivity"
             android:theme="@style/AppNoBarTheme" />
 # 在Application里面初始化小视频录制
         public static void initSmallVideo(Context context) {
