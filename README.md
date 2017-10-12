@@ -44,7 +44,7 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
         // 开启log输出,ffmpeg输出到logcat
              //JianXiCamera.setDebugMode(true);
         // 初始化拍摄SDK，必须
-             JianXiCamera.initialize(context,null);
+             JianXiCamera.initialize(false,null);
          }
 # 跳转录制界面或选择压缩
           // 录制
