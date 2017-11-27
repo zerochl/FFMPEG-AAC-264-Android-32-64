@@ -1,5 +1,6 @@
 # FFMPEG-AAC-264-Android-32-64
 android视频压缩，使用ffmpeg方案，集成fdk-aac与264编码，适用于32位系统与64位系统，ARM cpu与x86 cpu，mips理论都可以，不过占有量太小，被我忽略了
+本SDK主要用于视频压缩，视频录制功能存在异常请不要使用
 # fdk-aac
 acc源码，编译方式已经整理为sh文件，见build_ARM.sh ...
 # x264
@@ -11,7 +12,7 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 # 作者联系方式：QQ：975804495
 # 疯狂的程序员群：186305789，没准你能遇到绝影大神
 # 使用详解
-# 在manifests里面添加
+# 在manifests里面添加（只做压缩不需要任何界面，可以不导入）
 
         <activity
             android:name="com.zero.smallvideorecord.VideoPlayerActivity"
