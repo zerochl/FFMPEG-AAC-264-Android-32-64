@@ -26,8 +26,8 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
         <activity
             android:name="com.zero.smallvideorecord.SendSmallVideoActivity"
             android:theme="@style/AppNoBarTheme" />
-# 在Application里面初始化小视频录制
-        public static void initSmallVideo(Context context) {
+# 在Application里面初始化压缩之后的视频存放位置
+        public static void initSmallVideo(Context context) {
              // 设置拍摄视频缓存路径
              File dcim = Environment
                      .getExternalStoragePublicDirectory(Environment.DIRECTORY_DCIM);
