@@ -13,20 +13,22 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
 # 疯狂的程序员群：186305789，没准你能遇到绝影大神
 # 使用详解
 # 在manifests里面添加（只做压缩不需要任何界面，可以不导入）
+```java
 
         <activity
             android:name="com.zero.smallvideorecord.VideoPlayerActivity"
-            android:theme="@style/AppNoBarTheme"
-
-            />
+            android:theme="@style/AppNoBarTheme"/>
+            
         <activity
             android:name="com.zero.smallvideorecord.MediaRecorderActivity"
-            android:theme="@style/AppNoBarTheme"
-            />
+            android:theme="@style/AppNoBarTheme"/>
+            
         <activity
             android:name="com.zero.smallvideorecord.SendSmallVideoActivity"
-            android:theme="@style/AppNoBarTheme" />
+            android:theme="@style/AppNoBarTheme"/>
+```
 # 在Application里面初始化压缩之后的视频存放位置
+```java
         public static void initSmallVideo(Context context) {
              // 设置拍摄视频缓存路径
              File dcim = Environment
@@ -47,6 +49,7 @@ SmallVideoRecord Android工程，包含lib工程与example工程，lib给ffmpeg�
         // 初始化拍摄SDK，必须
              JianXiCamera.initialize(false,null);
          }
+```
 # 跳转录制界面或选择压缩
           // 录制
         MediaRecorderConfig config = new MediaRecorderConfig.Buidler()
