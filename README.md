@@ -1,6 +1,6 @@
 ### 作者联系方式：QQ：975804495
 ### 疯狂的程序员群：186305789，没准你能遇到绝影大神
-### 作者个人兴趣网站，[zerochl接码平台](https://xinghai.party)
+### 作者个人兴趣网站，[zero接码平台](https://xinghai.party)
 ### 作者个人兴趣网站，[猿指](https://blog.xinghai.party)
 # FFMPEG-AAC-264-Android-32-64
 android视频压缩，使用ffmpeg方案，集成fdk-aac与264编码，适用于32位系统与64位系统，ARM cpu与x86 cpu，mips理论都可以，不过占有量太小，被我忽略了
